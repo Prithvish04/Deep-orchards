@@ -12,14 +12,14 @@ import numpy as np
 from matplotlib import pyplot as plt
 import cv2
 
-with open('./data/VOCdevkit2007/VOC2007/ImageSets/Main/test.txt_annots.pkl', 'rb') as f:
+with open('../data/VOCdevkit2007/VOC2007/ImageSets/Main/test.txt_annots.pkl', 'rb') as f:
     data = pickle.load(f)
 
-with open ('./data/VOCdevkit2007/VOC2007/ImageSets/Main/test.txt', "r") as myfile:
+with open ('../data/VOCdevkit2007/VOC2007/ImageSets/Main/test.txt', "r") as myfile:
     data_name = myfile.read().splitlines()
 
 for i in data_name:
-    dir=os.path.join('./data/VOCdevkit2007/VOC2007/JPEGImages/'+i+'.jpg')
+    dir=os.path.join('../data/VOCdevkit2007/VOC2007/JPEGImages/'+i+'.jpg')
     image = cv2.imread(dir)
     fig, ax = plt.subplots() 
     ax.imshow(image)

@@ -4,7 +4,7 @@ import csv
 import os
 import math
 
-path1=os.path.abspath('.') 
+path1=os.path.abspath('..') 
 rootdir=os.path.join(path1+'/almonds/annotations')
 
 for root, dirs, files in os.walk(rootdir):
@@ -15,7 +15,7 @@ for name in files:
     if name[-3:] == 'csv':
         csvFile = os.path.join(root,name)
         xmlname = name[:-3] + 'xml'
-        xmlroot = './data/VOCdevkit2007/VOC2007/Annotations'
+        xmlroot = '../data/VOCdevkit2007/VOC2007/Annotations'
         xmlFile = os.path.join(xmlroot,xmlname)
         
         csvData = csv.reader(open(csvFile))
