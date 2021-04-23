@@ -32,3 +32,5 @@ https://data.acfr.usyd.edu.au/ag/treecrops/2016-multifruit/
 Paper Credits:
 https://arxiv.org/abs/1610.03677
 
+blog post for more details:
+https://prithvish-n13.medium.com/reproducibility-project-for-beginners-deep-orchards-integrating-the-deep-fruit-data-with-faster-a1189a85d585
