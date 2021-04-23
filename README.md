@@ -28,3 +28,7 @@ https://github.com/ruotianluo/pytorch-faster-rcnn
 
 Dataset collection credits:
 https://data.acfr.usyd.edu.au/ag/treecrops/2016-multifruit/
+
+Paper Credits:
+https://arxiv.org/abs/1610.03677
+
